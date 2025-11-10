@@ -1,0 +1,325 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    overflow-x: hidden;
+}
+
+.navheader ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: #167600;
+    padding: 15px;
+    margin: 0;
+}
+
+.Logo
+{
+ margin-right: 350px;
+ display: flex;
+}
+
+.title
+{
+    text-align: center;
+}
+
+.Aanmelden
+{
+    margin-right: 60px;
+    font-size: 18px;
+    background-color: #22B002;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Inloggen
+{
+    margin-left: 60px;
+    font-size: 18px;
+    background-color: #167600;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Zoeken
+{
+    margin-left: 400px;
+    font-size: 13px;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.a1
+{
+    display: flex;
+    background-color: #22B002;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.a1:hover
+{
+    transition-duration: 0.4s;
+    transform: scale(1.1)
+}
+
+section
+{
+    float: left;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 15px;
+}
+
+article
+{
+    float: right;
+    background-color: #22b0026d;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border-radius: 15px;
+}
+
+.TCR
+{
+    margin: 5px;
+}
+
+.overmijfooter
+{
+    background-color: #167600;
+    text-align: center;
+    padding: 10px;
+    margin-top: 485px;
+}
+
+.socials
+{
+    background-color: #167600;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    bottom: 0;
+    left: 0;
+    width: 99%;
+    position: absolute;
+}
+
+
+.socials img
+{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    float: left;
+}
+
+.contact
+{
+    float: right;
+    color: white;
+}
+
+.maincontent
+{
+    overflow-y: hidden;
+}
+
+.copyR
+{
+    color: white;
+}
+
+.overmijfooter img
+{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    float: left;
+}
+
+.overmijart
+{
+    margin-right: 500px;
+    margin-top: 100px;
+    font-size: 20px;
+
+}
+
+.examenart
+{
+    margin-left: 50px;
+    margin-top: 75px;
+    border: 1px solid black;
+    text-align: center;
+}  
+
+.exam-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 1.1em;
+}
+
+.exam-table th,
+.exam-table td {
+  border: 1px solid white;
+  padding: 8px 12px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.exam-table th {
+  background-color: #026e2e;
+  font-weight: bold;
+}
+
+
+.eduart
+{
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px  ;
+    background-color: #22b0026d;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.softart
+{
+    font-size: 30px;
+}
+
+.dropdown-parent {
+    position: relative;
+}
+
+.dropdown
+{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #22B002;
+    padding: 10px;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.dropdown li a 
+{
+    display: block;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown li a:hover 
+{
+    
+    background-color: #197d028e;
+    border-radius: 15px;
+}
+
+.dropdown-parent:hover .dropdown 
+{
+    display: block;
+}
+
+.button-soft
+{
+    background-color: #22b0026d;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    margin: 70px;
+    transition-duration: 0.8s;
+}
+
+.button-soft:hover
+{
+    background-color: #167600;
+    color: white;
+    transition-duration: 0.4s;
+    transform: translateY(-10px);
+}
+
+.softart2
+{
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.img1
+{
+    border-radius: 15px;
+    transition: 0.8s;
+    box-shadow: 5px 5px 15px #22b002a1;
+}
+
+.img1:hover
+{
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.softimg
+{
+    margin-left: 550px;
+    border-radius: 15px;
+    transition: 0.8s;
+    box-shadow: 5px 5px 15px #22b002a1;
+}
+.softimg:hover
+{
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.softart3
+{
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 400px;
+}
+
+.bsaart
+{
+    margin-right: 100px;
+    margin-top: 130px;
+}
